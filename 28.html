@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        li:first-child {
+            background-color: black;
+            color: white;
+        }
+        li:last-child {
+            background-color: rgb(159, 23, 23);
+            color: rgb(49, 38, 209);
+        }
+        li:nth-child(2){
+            background-color: rgb(242, 34, 34);
+            color: rgb(166, 165, 192);
+        }
+         li:nth-child(2n){
+            background-color: rgb(215, 201, 201);
+            color: rgb(166, 165, 192);
+        }
+         li:nth-child(2n+1){
+            background-color: rgb(140, 246, 130);
+            color: rgb(166, 165, 192);
+        }
+         li:nth-last-child(2n){
+            background-color: rgb(140, 246, 130);
+            color: rgb(166, 165, 192);
+        }
+         li:nth-last-of-type(2){
+            background-color: rgb(140, 246, 130);
+            color: rgb(166, 165, 192);
+        }
+         li:only-child(2n){
+            background-color: rgb(140, 246, 130);
+            color: rgb(166, 165, 192);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Namal Technical Organization</h1>
+    <ul id="list">
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum a, commodi consequatur at fugit vitae ipsa quod?
+        Labore alias quam dicta asperiores, inventore accusantium suscipit doloremque perspiciatis autem ex nobis.</p>
+    <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat recusandae tenetur, laborum sequi,
+        nisi odio reprehenderit error, possimus corrupti suscipit illum accusamus distinctio asperiores perspiciatis
+        voluptas necessitatibus nesciunt magnam aliquam!</p>
+    <ul id="list-two"><li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+        <li>Lorem ispum is</li>
+    </ul>
+    <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat ex temporibus accusamus ab odio, corrupti
+        tempora hic rem veniam sunt. Sapiente iure velit rem voluptatum dolore eveniet tenetur illo?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iusto dicta similique, perspiciatis enim optio
+        incidunt veniam autem molestias modi itaque corporis quasi ullam cumque velit vero laboriosam, quidem nostrum?
+    </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TABLE</title>
+    <style>
+        #students{
+            border:1px solid blue;
+            /* border-collapse: separate; */
+            border-collapse: collapse;
+            
+        }
+        th{
+            background-color: blue;
+            color:white;
+            border: 1px dashed white;
+        }
+        tr:nth-child(even){
+            background-color: pink;
+        }
+        tr:nth-child(even):hover{
+            background-color: rgb(98, 83, 83);
+        }
+        tr, td{
+            border: 1px dashed red;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Student Marks Table</h1>
+
+<table id="students">
+    <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Math</td>
+        <td>85</td>
+    </tr>
+    <tr>
+        <td>Ayesha</td>
+        <td>Science</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>English</td>
+        <td>78</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS pseudo elements</title>
+</head>
+<style>
+    p::after{
+        content: "- after para";
+        background-color: yellow;
+        color: red;
+        font-size: 20px;
+    }
+
+     p::after{
+        content: "- before para";
+        background-color: red;
+        color: yellow;
+        font-size: 20px;
+    }
+     p::first-letter{
+        background-color: red;
+        color: yellow;
+        font-size: 40px;
+    }
+     p::first-line{
+        background-color: red;
+        color: yellow;
+        font-size: 50px;
+    }
+    ::marker{
+        color:blue;
+    }
+    li::selection{
+        background-color: black;
+        color:red;
+    }
+    
+</style>
+<body>
+    <h1>Demo of the css selector</h1>
+    <p>My name is swera</p>
+    <p>I live in Lahore</p>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+    </ul>
+    <ol>
+         <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+    </ol>
+</body>
+</html>

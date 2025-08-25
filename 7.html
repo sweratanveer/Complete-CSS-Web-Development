@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Alignment</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        h1{
+             /* Horizontally, Vertically, Blurness */
+            border: 3px solid blue;
+            text-shadow: 2px 2px 5px orange, 3px 3px 6px red;
+
+
+            text-decoration-line: Underline; 
+             /* Text decoration Line
+             text-decoration-line: Overline;
+             text-decoration-line: line-through;
+             text-decoration-line: none;
+             */
+        }
+        p{
+            /* Text decoration Style
+            text-decoration-style: wavy;
+            text-decoration-style: solid;
+            text-decoration-style: double;
+            text-decoration-style: dotted;
+            test-decoration-style:dashed;
+            text-decoration-color: brown; 
+            */
+
+             /* Shorthand */
+            text-decoration: overline green double;
+
+            /* Text Transformation
+            text-transform: capitalize;
+            text-transform: lowercase; 
+            text-transform: uppercase;
+            */
+
+            /* Text Spacing
+            text-indent: 300px;
+            letter-spacing: 10px;
+            word-spacing: 20px;
+            line-height: 50px; 
+            white-space: normal;
+            */  
+        }
+
+        div{
+            color:red;
+            /* Writing Mode Values */
+            /* 
+            writing-mode: horizontal-tb; 
+            writing-mode: vertical-lr;
+             writing-mode: vertical-rl;
+            writing-mode: sideways-lr;
+            writing-mode: sideways-rl;
+            */
+           
+            column-count: 3;
+            column-gap: 10px;
+            /* width, style, color */
+            column-rule: 2px solid red;
+            column-rule: 2px double red;
+            column-width: 100px;
+
+            column-fill:auto;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="">Swera Rana</a>
+    <h1>Swera Rana</h1>
+    
+    <p>Kya Hal ha</p>
+    <div>
+        <h2 style="column-span: all;">Sanam Motiiiiiiiiiiiiii</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores non repellendus minima rem voluptate recusandae, 
+        modi assumenda, culpa quasi nostrum perspiciatis unde tempora velit iste saepe, magnam adipisci expedita.</div>
+</body>
+</html>

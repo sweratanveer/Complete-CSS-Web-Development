@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        html{
+            width: 300px;
+        }
+        div{
+            border: 1px solid red;
+        }
+        #Parent{
+            width:40pc;
+        }
+        #Child{
+            width:20em;
+        }
+    </style>
+</head>
+<body>
+    <!-- We use length in width, height, margin, padding, font-size -->
+    <!-- There are two types of units in css
+         a) Absolute (Cm, Mm, Inch, Px, Pt, Pc)
+         b) Relative (Em, Rem, Vh, Vw, %)
+         Em: em is relative to the size of its direct parent
+         Rem: rem is only relative to root (html tag) size
+         Vh: 1% of view port height
+         Vw: 1% of view port width
+         %: relative to parent
+    -->
+         <div id="Parent">
+            <p>This is parent text.</p>
+            <div id="Child">
+                <p>This is child text.</p>
+            </div>
+         </div>
+</body>
+</html>

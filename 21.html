@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display and VISIBILITY</title>
+    <style>
+        ul{
+            border:2px solid red;
+        }
+        li{
+            border: 1px solid green;
+            padding: 30px;
+            margin:20px;
+            width:200px;
+            display:block;
+            /* display:inline;
+            display: inline-block; */
+        }
+        a{
+            border: 1px solid blue;
+            padding: 20px;
+            display: block;
+
+        }
+        span{
+            display:list-item;
+            list-style-position: inside;
+        }
+        a{
+            display:list-item;
+            list-style-position: inside;
+            list-style-type: square;
+        }
+        h1{
+            visibility: hidden;
+            visibility: visible;
+        }
+        .s{
+            visibility: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Collapse -->
+    <table border="2" width="150px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+         <tr class="s">
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+    <!-- Visibility -->
+    <h1>SWERA TANVEER</h1>
+    <span>Google</span>
+    <Span>YAT</Span>
+    <a href="">GOOGLE</a>
+    <a href="">YOUTUBE</a>
+    <ul>
+        <li>Black</li>
+        <li>Blue</li>
+        <li>Browm</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+       
+        img{
+            height: 400px;
+            width: 400px;
+        }
+        .blur:hover {
+            filter: blur(2px);
+        }
+        .brightness:hover{
+            filter:brightness(120%);
+        }
+        .contrast:hover{
+            filter: contrast(120%) brightness(150%);
+        }
+        .Dropshadow:hover{
+            filter: drop-shadow(8px 8px 10px  rgb(24, 17, 226))
+        }
+        .grayscale:hover{
+            filter:grayscale(100%);
+        }
+        .hue-rotate:hover{
+            filter:hue-rotate(180deg);
+        }
+        .Invert:hover{
+            filter: invert(90%);
+        }
+        .Opacity:hover{
+            filter: opacity(60%);
+        }
+        .Saturate:hover{
+            filter:saturate(150%);
+        }
+        .Sepia:hover{
+            filter:sepia(50%);
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div>
+        <h2>Saturate</h2>
+        <img src="2.webp" class="Saturate"><br>
+    </div>
+
+    <div>
+        <h2>Sepia</h2>
+        <img src="2.webp" class="Sepia"><br>
+    </div>
+
+    <div>
+        <h2>Opacity</h2>
+        <img src="2.webp" class="Opacity"><br>
+    </div>
+    
+     <div>
+        <h2>Invert</h2>
+        <img src="2.webp" class="Invert"><br>
+    </div>
+
+    <div>
+        <h2>hue-rotate</h2>
+        <img src="2.webp" class="hue-rotate"><br>
+    </div>
+
+    <div>
+        <h2>grayscale</h2>
+        <img src="2.webp" class="grayscale"><br>
+    </div>
+
+    <div>
+        <h2>Drop-Shadow</h2>
+        <img src="2.webp" class="Dropshadow"><br>
+    </div>
+
+    <div>
+        <h2>Blur</h2>
+        <img src="2.webp" class="blur"><br>
+    </div>
+
+    <div>
+        <h2>brightness</h2>
+        <img src="2.webp" class="brightness"><br>
+    </div>
+
+    <div>
+        <h2>contrast</h2>
+        <img src="2.webp" class="contrast"><br>
+    </div>
+
+
+
+</body>
+
+</html>

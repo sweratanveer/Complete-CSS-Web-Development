@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Property</title>
+    <style>
+        img.background {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            filter: blur(35px);
+        }
+
+        img.circle {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            height: auto;
+            max-width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The Filter property</h1>
+    <p>Blurred Background</p>
+    <img class="background" src="2.webp" width="300" height="300">
+    <img src="2.webp" class="circle" width="300" height="300">
+    <p><strong>Note:</strong>The filter Property is not supported in Edge 12 or Internet Explorer.</p>
+</body>
+
+</html>
