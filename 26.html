@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Pseuso Classes</title>
+    <title>CSS Print Style</title>
+    <style>
+        @media screen{
+            p{
+                font-size: 40px;
+                font-family: Arial;
+            }
+        }
+        @media print{
+            p{
+                font-size: 60px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eveniet dolorem labore? Omnis doloribus animi
+        ducimus aliquid earum, vitae quas id provident iste quis unde. Dignissimos commodi facere saepe ut. Lorem ipsum
+        dolor sit amet consectetur, adipisicing elit. Sed accusamus deleniti sit fuga labore eligendi, libero
+        voluptatem, in earum vel ratione odit assumenda porro tenetur quae consectetur minima magnam nostrum. Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Quod est, necessitatibus labore tempora cumque omnis
+        voluptate in magni quisquam fugiat nulla vero nihil, aliquid sint eaque atque dolorum consectetur et?</p>
 </body>
+
 </html>

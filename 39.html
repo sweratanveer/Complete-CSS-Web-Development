@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Transform</title>
+    <style>
+        #box{
+            width: 250px;
+            height: 150px;
+            background: tomato;
+            transform: rotate(30%);
+            transition: all 2s;
+        }
+        #box:hover{
+            /* transform:rotate(360deg);
+            transform:translate(60px, 70px);
+            transform:translateX(60px);
+            transform:translatey(60px);
+            transform:scale();
+            transform: scaleX();
+            transform: scaleY();
+            transform: skew(180deg, 180deg);   
+            transform:skewX();
+            transform: skewY();    */
+            transform: perspective(800px) scaleZ(7) rotateX(50deg) translateZ(60px) ;
+            /* transform-origin: left; */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>2D Transform</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore eius quo quasi, omnis repudiandae
+        doloremque doloribus iste expedita neque sapiente fugiat dicta cupiditate magni praesentium nostrum minus quidem
+        quos.ٖ Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate veritatis doloribus tempore at
+        earum veniam distinctio! Possimus, fugiat quia tempora saepe rerum autem laborum cum facere odio inventore?
+        Voluptatibus.</p>
+    <div id="box"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore eius quo quasi, omnis repudiandae
+        doloremque doloribus iste expedita neque sapiente fugiat dicta cupiditate magni praesentium nostrum minus quidem
+        quos.ٖ Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate veritatis doloribus tempore at
+        earum veniam distinctio! Possimus, fugiat quia tempora saepe rerum autem laborum cum facere odio inventore?
+        Voluptatibus.</p>
+</body>
+</html>
