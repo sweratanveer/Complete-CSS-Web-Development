@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The grid autoflow property</title>
+    <style>
+        .grid-container{
+          display: grid;  
+          grid-template-columns: auto, auto, auto;
+          gap: 10px;
+          background-color: aqua;
+          padding: 10px;
+        }
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The-grid-autoflow-property</h1>
+    <div class="grid-container" style="grid-auto-flow:column;">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+    </div>
+
+    <h2>grid-auto-flow: row</h2>
+    <p>Insert items row by row:</p>
+     <div class="grid-container" style="grid-auto-flow:row;">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+    </div>
+</body>
+</html>
